@@ -1,0 +1,338 @@
+/*
+Theme Name: mscgr-beta
+Theme URI: http://a.mscgr.com
+Author: Don Makoviney
+Author URI: http://donmakoviney.com
+Description: Custom theme for music gear reviews.
+Version: 1.0
+*/
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.homelist {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+}
+
+.category-headers-home a {
+ text-decoration: none !important;
+}
+
+.last-updated {
+background-color:yellow;
+}
+
+.lead-text {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+  padding-left: 10px; 
+  text-align: center;
+}
+
+.social-sites {
+  margin: 10px;
+}
+
+.first-bullet {
+  color: #666;
+  font-weight: bolder;
+}
+
+p, li, ul, ol{
+  font-family: 'Lora', serif !important;
+  font-size: 16px;
+}
+
+.mscgr-brand {
+background-color: #da3535;
+color: #fff;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+text-shadow: 1px 1px 1px rgba(28, 28, 28, 1);
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Featured Image Handling */
+.img-rounded {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+  }
+}
+.container-narrow > hr {
+  margin: 20px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 0px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.buy-button {
+  -webkit-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.25);
+  padding: 2px 6px 2px 6px;
+}
+
+/* Inline Text Formatting & Stuff */
+
+.firstchar { 
+  float: left; 
+  color: #990000; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+  font-family: Georgia; 
+}
+
+.pull-quote {
+padding: 10px;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+color: #dc3325 !important;
+width: 200px;
+font-weight: bold;
+margin-left: 10px;
+font-size: 1.1em;
+}
+
+.buy-button-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.product {
+
+}
+
+.product-half {
+position: relative;
+float: right;
+width: 400px;
+margin-left: 20px;
+margin-right: -45px;
+margin-bottom: 20px;
+padding-bottom: 10px;
+border-left: 1px solid #ccc;
+}
+
+.product-half-left {
+position: relative;
+float: left;
+width: 180px;
+margin-right: 10px;
+}
+
+.product-half-right {
+float: left;
+width: 180px;
+}
+
+.product-half-thumbnail {
+display: block;
+margin: 0 auto 10px auto;
+padding: 5px;
+}
+
+.product-title a {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.product-make-model, .product-make-model a {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+margin-bottom: 5px;
+color: #dc3325 !important;
+text-decoration: none !important;
+}
+
+.product-text {
+margin-bottom: 10px;
+color: #666;
+}
+
+.single-bc_review .content a {
+color: #005f66;
+text-decoration: underline;
+}
+
+.product-pricebox {
+padding: 5px;
+}
+
+.product-pricebox a {
+}
+
+.product-full {
+position: relative;
+margin: 0 -45px 20px 0px;
+padding: 15px 0 10px 0;
+border-left: 1px solid #ccc;
+}
+
+.product-half-right {
+
+}
+
+.product-half-left {
+
+}
+.item-full {
+  position: relative;
+  margin: 0 -45px 20px 0px;
+  padding: 15px 0 10px 0;
+  border-left: 1px solid #ccc;
+}
+.item-full-left {
+  float: left;
+  width: 350px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.item-full-thumbnail {
+  display: block;
+  margin-bottom: 10px;
+}
+.item-full-right {
+  float: left;
+  width: 200px;
+}
+.item-title, .item-title a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.item-title, .item-title a {
+  margin-bottom: 5px;
+  color: #a94442; /* text-danger */
+  text-decoration: none !important;
+}
+.item-title {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.item-make-model, .item-make-model a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.item-make-model, .item-make-model a {
+  margin-bottom: 5px;
+  color: #428bca !important; /* text-primary */
+  text-decoration: none !important;
+}
+.item-text {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.item-text {
+  margin-bottom: 10px;
+  color: #666;
+}
+.item-pricebox {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.item-disclaimer {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+}
